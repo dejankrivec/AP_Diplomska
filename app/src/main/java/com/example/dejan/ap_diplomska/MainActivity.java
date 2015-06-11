@@ -58,7 +58,6 @@ public class MainActivity extends FragmentActivity {
         });
         // Inicialization
         //ReadSDCard.GetSongs();
-
         Init();
 
         // zapisemo si vrednosti fragmentov

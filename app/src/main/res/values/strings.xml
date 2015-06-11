@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AP_Diplomska</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="shuffle">Shuffle</string>
+
+    <!-- EXTRA DATA -->
+
+    <string name="EXTRA_PLAY">Play</string>
+    <string name="EXTRA_SPECIFIC_SONG">Secific song</string>
+    <string name="EXTRA_NEXT">Next</string>
+    <string name="EXTRA_PREVIOUS">Previous</string>
+
+
+</resources>

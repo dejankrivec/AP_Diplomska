@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:padding="10dp"
+    android:background="#000">
+
+    <TextView
+        android:id="@+id/shuffle_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/shuffle"
+        android:layout_centerVertical="true"
+        android:textColor="#FFF"/>
+    
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="25dp"
+        android:src="@mipmap/shuffle_icon"
+        android:layout_toRightOf="@+id/shuffle_text"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>

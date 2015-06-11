@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000">
+
+    <GridView
+        android:id="@+id/artist_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="3"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp">
+    </GridView>
+    <ListView
+        android:id="@+id/artist_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:visibility="invisible"
+        android:divider="@color/dark_grey"
+        android:dividerHeight="1dp"
+        android:layout_below="@+id/artist_title_back">
+    </ListView>
+    <RelativeLayout
+        android:id="@+id/artist_title_back"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#ff0"
+        android:visibility="invisible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:textSize="22sp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -36,7 +36,7 @@ import java.util.Stack;
 
 
 public class MainActivity extends FragmentActivity {
-
+    //COMMENT
     private RelativeLayout menu;
     private ImageView next,previous;
     private static TextView title,artist,album;
